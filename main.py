@@ -34,4 +34,4 @@ def add_expense(date, amount, category, description):
         json.dump(data, file, indent=4)
 
 initialize_file()
-add_expense("12/03/2025", 200, "leisure", "")
+add_expense("12/03/2025", 2000, "leisure", "")
